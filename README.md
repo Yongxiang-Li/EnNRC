@@ -1,1 +1,6 @@
 # EnNRC
+Code for the paper: Yongxiang LI, Yunji ZHANG, Qian XIAO, Jianguo Wu. (2025). Noise Resistant Control Charts for Detecting Periodicity from Correlation. Technometrics
+------------------------------------------------------------------
+
+Abstract: 
+Control charts are widely used to detect process variations that can reveal out-of-control events. Among various methods in the literature, spectral control charts are popular for monitoring processes with periodic behavior. Yet, in highly noisy environments, their performance may become unsatisfactory, because they are designed on the spectral features (e.g., periodogram) which could be easily masked by strong noise. Moreover, they would incorrectly report many correlated-but-not-periodic signals as periodic ones, leading to a high false discovery rate. To address these issues, we develop a new noise resistant feature in the time domain, based on which we propose two robust tests and establish noise resistant control charts for detecting periodicity from correlation. Our developed feature is proved to have appealing finite-sample and asymptotic properties. Additionally, we develop an efficient computation for calculating the proposed test statistics. Simulations and case studies are presented to demonstrate the superiority of the proposed approach compared to some state-of-the-art methods.
